@@ -1,0 +1,243 @@
+* {
+    font-family: "Work Sans", sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+p {}
+
+.normal-font {
+    color: #444343;
+
+    line-height: 1.8;
+    /* Adjust the number to control spacing */
+
+}
+
+header {
+    height: 808px;
+    background-image: url('images/banner/banner1.png');
+    background-repeat: no-repeat;
+    /* To avoid image repetition */
+    background-size: cover;
+    /* Ensures the image covers the whole element */
+    background-position: center;
+
+}
+
+header>div {
+    height: 400px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    text-align: right;
+
+    padding-left: 57%;
+    padding-top: 20%;
+
+}
+
+header>div>h3 {
+    font-weight: bold;
+    font-size: 65px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header-btn {
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    /* font-weight: bold; */
+    padding: 12px;
+    margin-top: 3%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    /* Smooth transition */
+
+}
+
+.header-btn:hover {
+    background-color: whitesmoke;
+    /* 50% transparent black */
+    opacity: 0.8;
+    color: #F15B22;
+    border: 2px solid #F15B22;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/*------------------------
+            Main
+------------------------*/
+
+/* failure section  */
+.checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checklist li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.checklist li::before {
+    content: '✔';
+    color: green;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.failures {
+    display: flex;
+    align-items: center;
+
+}
+
+.failures>div {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.failures>.text {
+    padding-top: 7%;
+    width: 25%;
+}
+
+#failures-heading {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.my-plans-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.all-plans {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.plan {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-plans-section {
+    margin-top: 10vh;
+}
+
+.my-plans-heading {
+    margin-bottom: 5vh;
+}
+
+#positive-mindset-sections {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 10vh;
+    /* margin: 20vh auto; */
+    height: 30vh;
+    /* width: 1140px; */
+
+    border: none;
+    border-radius: 5px;
+
+    background-image: url('images/gradient2.png'), url('images/watch.png');
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+#positive-mindset-sections>.text {
+    width: 450px;
+    align-items: center;
+    padding-top: 3em;
+    padding-left: 3em;
+}
+
+#positive-mindset-sections>.text>h3 {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+#positive-mindset-sections>.text>button {
+    padding: 10px;
+    border: none;
+
+    width: 7rem;
+    border-radius: 3px;
+    color: #F15B22;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+footer {
+    margin-top: 10vh;
+    color: white;
+    background-color: #151414;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+footer>p {
+    color: white;
+}
+
+.large-input {
+    background-color: black;
+    color: white;
+    border: #F3F3F3 solid 1px;
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#footer-btn {
+    width: 170px;
+    height: 64px;
+    color: #F15B22;
+    margin-top: 20px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-side {
+    width: 40vw;
+}
+
+.right-side {}
